@@ -1,0 +1,17 @@
+local
+  ../210basis.mlb
+
+  signatures.mlb
+  primitives.mlb
+
+  ../structures/sequence/ArraySequence.sml
+  ../structures/sequence/ListSequence.sml
+  ../structures/sequence/MkSTSequence.sml
+in
+  signature SEQUENCE
+  signature ST_SEQUENCE
+
+  structure ArraySequence
+  structure ListSequence
+  functor MkSTSequence
+end

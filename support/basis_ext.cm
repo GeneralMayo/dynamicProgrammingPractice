@@ -1,0 +1,8 @@
+Library
+  structure Word8Vector
+  structure BinIO
+  structure Time
+  structure OS
+  structure TextIO
+is
+  $/basis.cm
